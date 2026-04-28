@@ -26,11 +26,11 @@ export default function Hero() {
     return () => clearTimeout(timeout)
   }, [displayed, deleting, wordIndex])
 
-  const fadeUp = (delay: number) => ({
-    initial: { opacity: 0, y: 28 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.7, delay, ease: [0.22, 1, 0.36, 1] },
-  })
+const fadeUp = (delay: number) => ({
+  initial: { opacity: 0, y: 28 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.7, delay, ease: 'easeOut' as const },
+})
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden px-6 md:px-16 pt-32 pb-16">
