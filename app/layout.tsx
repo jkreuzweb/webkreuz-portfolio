@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Tvořím moderní weby v Next.js, Reactu a Tailwindu. Začínající webař z Vsetína – weby na míru od 2 990 Kč.',
   openGraph: {
     title: 'Webkreuz – Tvorba webů v Next.js | Jan Křížek',
-    description: 'Moderní weby v Next.js a Reactu od 2 990 Kč. Webař z Vsetína.',
+    description: 'Moderní weby v Next.js a Reactu od 2 990 Kč.',
     url: 'https://webkreuz.cz',
     locale: 'cs_CZ',
     type: 'website',
